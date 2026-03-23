@@ -1,6 +1,5 @@
 [client]
 showErrorDetails = true
-showSidebarNavigation = true
 
 [theme]
 primaryColor = "#00D1FF"
@@ -14,13 +13,6 @@ level = "info"
 
 [server]
 headless = true
-port = 5000
-maxUploadSize = 200
-enableXsrfProtection = true
-enableCORS = true
-
-[browser]
-gatherUsageStats = false
 
 [runner]
 magicEnabled = true
