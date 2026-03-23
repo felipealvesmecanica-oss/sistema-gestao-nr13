@@ -1,0 +1,27 @@
+[client]
+showErrorDetails = true
+showSidebarNavigation = true
+
+[theme]
+primaryColor = "#00D1FF"
+backgroundColor = "#0f0f0f"
+secondaryBackgroundColor = "#1a1a1a"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[logger]
+level = "info"
+
+[server]
+headless = true
+port = 5000
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = true
+fastReruns = true
