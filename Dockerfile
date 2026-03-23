@@ -6,6 +6,6 @@ COPY requirements_gestao_ativos.txt .
 RUN pip install --no-cache-dir -r requirements_gestao_ativos.txt
 
 COPY app_gestao_ativos_ia.py .
-COPY .streamlit_config.toml .
+COPY .streamlit_config.toml .streamlit/config.toml
 
-CMD ["streamlit", "run", "app_gestao_ativos_ia.py"]
+CMD ["streamlit", "run", "app_gestao_ativos_ia.py", "--logger.level=debug"]
