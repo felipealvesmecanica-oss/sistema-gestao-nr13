@@ -6,14 +6,12 @@ primaryColor = "#00D1FF"
 backgroundColor = "#0f0f0f"
 secondaryBackgroundColor = "#1a1a1a"
 textColor = "#FFFFFF"
-font = "sans serif"
 
 [logger]
 level = "info"
 
 [server]
 headless = true
-
-[runner]
-magicEnabled = true
-fastReruns = true
+port = 8501
+enableXsrfProtection = true
+enableCORS = true
