@@ -11,7 +11,6 @@ import io
 
 # Importações para IA
 import google.generativeai as genai
-from pdf2image import convert_from_bytes
 import PyPDF2
 
 # ============================================================================
