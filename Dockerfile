@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir -r requirements_gestao_ativos.txt
 COPY app_gestao_ativos_ia.py .
 COPY .streamlit_config.toml .
 
-EXPOSE 5000
+EXPOSE 8501
 
-CMD ["streamlit", "run", "app_gestao_ativos_ia.py", "--server.port=5000", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app_gestao_ativos_ia.py", "--server.port=8501", "--server.address=0.0.0.0"]
